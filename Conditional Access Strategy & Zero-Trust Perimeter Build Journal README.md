@@ -38,7 +38,8 @@ Architect a robust perimeter defense using Microsoft Entra Conditional Access. T
 - **Tier 1** — Baseline rules for all identities
 - **Tier 2** — Strict hardware isolation for privileged administrators
 ---
- 
+ <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b7f2b6a8-a4f3-4651-99e3-ad098bb6d6f4" />
+
 ### 🛠️ Step 1: Mitigating the Blast Radius (Break-Glass Accounts)
  
 Before writing a single restrictive policy, I engineered an **emergency recovery strategy** to prevent permanent tenant lockout in the event of an accidental global rule misconfiguration.
