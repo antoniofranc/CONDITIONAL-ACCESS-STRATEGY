@@ -1,5 +1,5 @@
 # Conditional Access Strategy
- 
+ 📄 [View Full Document on Google Docs](https://docs.google.com/document/d/1s5iz44bpKn7-VXx_OgaJfAlKl7ORzl-Z/)
 **Baseline & Admin Policy Design — Microsoft Entra ID**  
 Final IAM Project — Day 2 Portfolio Artifact
  
