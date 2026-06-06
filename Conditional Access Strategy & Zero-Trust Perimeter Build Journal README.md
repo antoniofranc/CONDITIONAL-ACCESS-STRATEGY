@@ -38,7 +38,7 @@ Architect a robust perimeter defense using Microsoft Entra Conditional Access. T
 - **Tier 1** — Baseline rules for all identities
 - **Tier 2** — Strict hardware isolation for privileged administrators
 ---
- <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b7f2b6a8-a4f3-4651-99e3-ad098bb6d6f4" />
+
 
 ### 🛠️ Step 1: Mitigating the Blast Radius (Break-Glass Accounts)
  
@@ -78,7 +78,9 @@ Non-human service accounts run automated background tasks and **cannot respond t
 ## 📅 Entry 2: Engineering Tier 1 — Baseline Policies (All Users)
  
 With the foundation secure, I built the foundational security tier. To guarantee business continuity, **all policies were initialized in Report-only mode** to collect background telemetry safely before enforcement.
- 
+
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b7f2b6a8-a4f3-4651-99e3-ad098bb6d6f4" />
+
 ---
  
 ### 🔒 Policy 1: Block Legacy Authentication
@@ -160,7 +162,9 @@ Two issues surfaced during Policy 4 configuration — documented here for reprod
 To protect high-value directories, I engineered a highly restrictive admin perimeter layered **directly on top of Tier 1**. These policies target the following directory roles:
  
 `Global Administrator` · `Security Administrator` · `Privileged Role Administrator` · `Exchange Administrator` · `SharePoint Administrator` · `Helpdesk Administrator`
- 
+
+ <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/eee8ffd0-b6e9-4d57-9047-87f47c4a3fa0" />
+
 ---
  
 ### 🛡️ Policy 5: Phishing-Resistant MFA for Admins
